@@ -8,3 +8,9 @@
 > To fix, just add ~/.local/bin to your $PATH, for example by adding the following line to your .bashrc file:
 >
 >> export PATH="$HOME/.local/bin:$PATH"
+
+## 2. When trying to configure Gnome Extensions, meet "Although GNOME Shell integration extension is running, native host connector is not detected. Refer documentation for instructions about installing connector."
+[Solution](https://stackoverflow.com/questions/61516422/gnome-shell-integration-extension-is-running-native-host-connector-is-not-detec)
+
+> FYI: starting from Ubuntu 21.10 Firefox comes as a default browser and as a snap, as well as Chromium.
+Just use another browser.
