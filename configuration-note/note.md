@@ -27,3 +27,9 @@ Just use another browser.
 > Ensure that your mysql service is running
 >
 >> service mysqld start
+
+## 4 When trying to execute "pipenv install mysqlclient", installation failed. Details: ".../bin/sh: 1: mysql_config: not found/bin/sh: 1: mariadb_config: not found..."
+
+[Solution](https://stackoverflow.com/questions/7475223/mysql-config-not-found-when-installing-mysqldb-python-interface)
+
+Install mysql-server via "apt-get install mysql-server", even though I have install Mysql server via [Apt](https://dev.mysql.com/doc/refman/8.0/en/linux-installation.html)
